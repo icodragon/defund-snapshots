@@ -6,3 +6,4 @@ cd $HOME/.defund/
 tar xfv data_05052022.tar
 wget dragonapi.space/addrbook.json && mv addrbook.json $HOME/.defund/config/
 sudo systemctl start defund && sudo journalctl -u defund.service -f -o cat
+cd $HOME/.defund && rm -rf data_05052022.tar
