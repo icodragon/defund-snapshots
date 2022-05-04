@@ -18,7 +18,7 @@ Unarchive archive backup</br>
 Download addrbook.json and move to directory .defund/config/</br>
 `wget dragonapi.space/addrbook.json && mv addrbook.json $HOME/.defund/config/`</br>
 Start node and show logs</br>
-`sudo systemctl start defund && sudo journalctl -u defund.service -f -o cat`
+`sudo systemctl start defund && sudo journalctl -u defund.service -f -o cat`</br>
 Open .defund directory and remove archive backup (free storage)</br>
 `cd $HOME/.defund && rm -rf data_05052022.tar`</br>
 
