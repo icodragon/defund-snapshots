@@ -5,7 +5,7 @@ Snapshot installation May 5</br>
 </br>
 </br>
 Open your terminal next command:</br>
-Download archive backup (average time 40-60 minutes)
+Download archive backup (average time 40-60 minutes)</br>
 `wget dragonapi.space/data_05052022.tar`</br>
 Stop nodes and reset database</br>
 `systemctl stop defund && defundd tendermint unsafe-reset-all`</br>
