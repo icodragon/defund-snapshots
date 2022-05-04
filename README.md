@@ -10,11 +10,11 @@ Download archive backup (average time 40-60 minutes)</br>
 Stop nodes and reset database</br>
 `systemctl stop defund && defundd tendermint unsafe-reset-all`</br>
 Move arhive backup to directory .defund</br>
-`mv data_03_05_2022.tar $HOME/.defund`/</br>
+`mv data_05052022.tar $HOME/.defund/`</br>
 Open .defund directory</br>
 `cd $HOME/.defund/`</br>
 Unarchive archive backup</br>
-`tar xfv data_03_05_2022.tar`</br>
+`tar xfv data_05052022.tar`</br>
 Download addrbook.json and move to directory .defund/config/</br>
 `wget dragonapi.space/addrbook.json && mv addrbook.json $HOME/.defund/config/`</br>
 Start node and show logs</br>
