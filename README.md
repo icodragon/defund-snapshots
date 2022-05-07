@@ -23,4 +23,3 @@ Open .defund directory and remove archive backup (free storage)</br>
 `cd $HOME/.defund && rm -rf data_06052022.tar`</br>
 
 If you have any questions write to Discord: **icodragon#4560**</br>
-❤️ My community support noders: https://t.me/icodragondev
