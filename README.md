@@ -1,6 +1,6 @@
 ![image](https://user-images.githubusercontent.com/104348282/166724700-f34d905c-2b94-49ff-a09d-5942958aecc7.png)
 # defund-snapshots
-Snapshot installation May 6</br> 
+Snapshot installation May 8</br> 
 **(Before installing a snapshot, we recommend that you save important files)**
 </br>
 </br>
